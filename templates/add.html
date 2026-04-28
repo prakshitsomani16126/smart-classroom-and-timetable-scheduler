@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<div class="card wide">
+<h3>📅 Schedule Class</h3>
+
+<div class="form-row">
+<select id="classroomSelect"></select>
+<select id="subjectSelect"></select>
+<input id="day" placeholder="Monday">
+<input id="time" placeholder="10:00">
+<button onclick="addTimetable()">Schedule</button>
+</div>
+
+</div>
+
+<div class="card wide ai-card">
+
+<h3>🤖 AI Timetable Generator</h3>
+
+<div class="ai-grid">
+
+<div>
+<label>Classroom</label>
+<select id="aiClassroom"></select>
+</div>
+
+<div>
+<label>Subjects</label>
+<div id="subjectCheckboxes" class="checkbox-grid"></div>
+</div>
+
+<div>
+<label>Days</label>
+<input id="days" placeholder="Mon, Tue, Wed, Thu, Fri">
+</div>
+
+<div>
+<label>Time Slots</label>
+<input id="times" placeholder="10:00, 11:00, 12:00">
+</div>
+
+</div>
+
+<button onclick="autoGenerate()">🤖 Auto Generate Timetable</button>
+<button class="delete-all-btn" onclick="clearData()">🧹 Clear All Timetable</button>
+
+</div>
+
+</div> <!-- grid -->
+</div> <!-- content -->
+</div> <!-- main -->
+</div> <!-- layout -->
+
+<script src="/static/script.js"></script>
+</body>
+</html>
