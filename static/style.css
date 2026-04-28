@@ -1,0 +1,73 @@
+/* RESET */
+
+/* LABEL */
+.ai-grid label {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* INPUT + SELECT */
+.ai-grid input,
+.ai-grid select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* CHECKBOX */
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 8px;
+}
+
+.checkbox-grid label {
+    background: #eef2ff;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+/* BUTTON */
+.ai-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #4f46e5, #7c3aed);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ai-btn:hover {
+    transform: scale(1.02);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* MAKE BIG CARD FULL WIDTH */
+.wide {
+    grid-column: span 3;
+}
+
+.delete-all-btn {
+    background: #ef4444;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.delete-all-btn:hover {
+    background: #dc2626;
+}
